@@ -301,8 +301,10 @@ Target GitVersionTheHardWay => _ => _
 ---
 
 ## Solutions en projecten
+
 - [Solution] attribuut
 - Bevat info over de solution en de projecten
+
 ```csharp
 [Solution] readonly Solution Solution;
 Target Compile => _ => _
@@ -311,13 +313,21 @@ Target Compile => _ => _
         DotNetBuild(s => s.SetProjectFile(Solution));
     });
 ```
+
 ---
 
 ## Documentatie
-https://nuke.build/docs/getting-started/philosophy.html
+
+<https://nuke.build/docs/getting-started/philosophy.html>
 
 ## Chat
-https://slofile.com/slack/nukebuildnet
+
+<https://slofile.com/slack/nukebuildnet>
+
 ---
 
 ## Vragen
+
+---
+
+<https://github.com/Barsonax/nukepresentation-20220429>
